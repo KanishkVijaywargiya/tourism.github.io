@@ -1,0 +1,106 @@
+/*******************************************************
+            GENERAL
+********************************************************/
+
+h1 { color:#000;	}
+body{	
+  background-image:url('/Users/kanishkvijaywargiya/Desktop/kanishk portfolio/img/bg/blue colour.jpg');
+  background-repeat:repeat;
+  font-family:Arial, Helvetica, sans-serif; 
+}
+h1, h2, h3{
+  font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif; 
+}
+#wrapper{
+  width:900px; margin:10px auto;
+  background-color:#fff;
+  padding: 0 40px;	
+}
+#top 		{  		}
+#logo{ 
+  float:left; 
+  margin:50px 0;	
+}
+#topnav{ 
+  clear:both; 	
+}
+/*****************************************************
+    2 green lines just below the logo
+*****************************************************/    
+#topnav ul{
+  padding: 20px	0; 
+	margin:0;	
+  border-top: #6C0 double;		
+}
+/****************************************************/
+
+/****************************************************
+      MAINTAIN THE NAV BUTTONS IN A SINGLE LINE
+*****************************************************/
+#topnav ul li{	
+  display:inline;
+  list-style-type:none;	
+  margin:0 40px 0 0;	
+}
+/****************************************************/
+
+#topnav a:link{ 
+  font-weight:bold; Atext-decoration:none; text-transform:uppercase; color:#000;		
+}
+#topnav a:visited{
+  font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000;	
+}
+#topnav a:active{ 
+  font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000;		
+}
+#topnav a:hover	{
+  font-weight:bold; text-decoration:none; text-transform:uppercase; color:#F90;	
+}
+#topnav a:focus{
+  font-weight:bold; text-decoration:none; text-transform:uppercase; color:#F90;	
+}
+#content{	
+  float:left; width:580px;	
+}
+#content h2{
+  color:#6C0;	
+}
+#content p ul li{
+  font-size:12px; line-height:180%;				
+}
+
+/*******************************************
+    image postion at the left side
+*******************************************/
+.img-left{
+  float:left; padding: 3px 10px 5px 1px;
+}			
+/****************THE~END*******************/
+
+/******************************************
+      IMAGE POSITION AT RIGHT SIDE
+*******************************************/      
+.img-right{float:right; padding: 3px 10PX 5px 1px; 	
+}
+/*************THE~END**********************/
+
+#rightside{
+  float:right; width:270px	
+}
+#rightside h2{	
+  color:#6C0;	
+}
+#rightside p ul li{ 
+  font-size:12px; line-height:180%;				
+}
+#footer{
+  clear:both; padding:10px	0;
+	border-top: 1px #000 dotted;
+}
+#footer p{ 
+  text-align:center; font-size:14px; font-weight:bold;	
+}
+ #fright 	{ }
+
+
+					
